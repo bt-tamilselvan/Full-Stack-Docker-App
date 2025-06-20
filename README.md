@@ -1,4 +1,4 @@
-# 🐳 Full Stack Docker App - React + Node + MongoDB
+## 🐳 Full Stack Docker App - React + Node + MongoDB
 
 This is a full-stack Dockerized web application built with:
 
@@ -33,6 +33,8 @@ fullstack-docker-app/
 ├── docker-compose.yml       # Orchestration file for all services
 ├── README.md                # Project documentation
 └── screenshot.png           # UI screenshot (optional)
+
+```markdown
 
 ---
 
