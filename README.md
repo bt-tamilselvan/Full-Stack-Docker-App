@@ -17,22 +17,8 @@ This is a full-stack Dockerized web application built with:
 
 ## 📁 Folder Structure
 
-```plaintext
-fullstack-docker-app/
-├── backend/                 # Node.js + Express backend service
-│   ├── Dockerfile
-│   ├── package.json
-│   └── server.js
-│
-├── frontend/                # React frontend application
-│   ├── Dockerfile
-│   ├── .env
-│   └── src/
-│       └── App.js
-│
-├── docker-compose.yml       # Orchestration file for all services
-├── README.md                # Project documentation
-└── screenshot.png           # UI screenshot (optional)
+![image](https://github.com/user-attachments/assets/5b6b76ed-26cd-410b-90cd-f43846f46fa1)
+
 
 ---
 
