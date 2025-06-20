@@ -33,9 +33,6 @@ my-html-app/
 ├── docker-compose.yml
 ├── README.md
 
-bash
-Copy
-Edit
 
 ## 🛠️ How to Run
 
@@ -68,9 +65,11 @@ GET /users – List all users
 
 ![image](https://github.com/user-attachments/assets/781d0ac8-0c86-4886-87ac-e00057ab3449)
 
-🧠 Author
+
+🧠 Author:-
 Tamilselvan.B.T – DevOps Engineer in the Making 🚀
 Infosys | Passion for Full Stack | Loves Docker
+
 
 💼 Portfolio Usage
 This project is ideal to showcase:
