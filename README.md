@@ -33,15 +33,16 @@ my-html-app/
 ├── docker-compose.yml
 ├── README.md
 
+---
 
 ## 🛠️ How to Run
 
 Make sure Docker and Docker Compose are installed.
 
-bash
 git clone https://github.com/<your-username>/<your-repo>.git
 cd my-html-app
 docker-compose up --build
+
 Then open:
 
 Frontend: http://localhost:3001
@@ -49,6 +50,8 @@ Frontend: http://localhost:3001
 Backend API: http://localhost:5000/users
 
 MongoDB Admin UI: http://localhost:8081
+
+---
 
 💬 API Endpoints
 POST /user – Add a user (JSON: { "name": "Selva" })
@@ -65,8 +68,10 @@ GET /users – List all users
 
 ![image](https://github.com/user-attachments/assets/781d0ac8-0c86-4886-87ac-e00057ab3449)
 
+---
 
 🧠 Author:-
+
 Tamilselvan.B.T – DevOps Engineer in the Making 🚀
 Infosys | Passion for Full Stack | Loves Docker
 
