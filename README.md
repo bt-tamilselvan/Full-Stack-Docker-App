@@ -76,7 +76,7 @@ GET /users – List all users
 Infosys | Passion for Full Stack | Loves Docker
 
 
-💼 Portfolio Usage
+## 💼 Portfolio Usage
 This project is ideal to showcase:
 
 Docker & DevOps knowledge
