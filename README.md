@@ -17,7 +17,7 @@ This is a full-stack Dockerized web application built with:
 
 ## 📁 Folder Structure
 
-``plaintext
+```plaintext
 fullstack-docker-app/
 ├── backend/                 # Node.js + Express backend service
 │   ├── Dockerfile
