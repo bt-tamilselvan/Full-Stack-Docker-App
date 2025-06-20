@@ -15,6 +15,24 @@ This is a full-stack Dockerized web application built with:
 - Connected using Docker networks
 - Environment variables managed using `.env`
 
+## 📁 Folder Structure
+
+```plaintext
+fullstack-docker-app/
+├── backend/                 # Node.js + Express backend service
+│   ├── Dockerfile
+│   ├── package.json
+│   └── server.js
+│
+├── frontend/                # React frontend application
+│   ├── Dockerfile
+│   ├── .env
+│   └── src/
+│       └── App.js
+│
+├── docker-compose.yml       # Orchestration file for all services
+├── README.md                # Project documentation
+└── screenshot.png           # UI screenshot (optional)
 
 ---
 
@@ -87,24 +105,7 @@ git push -u origin main
 
 📌 Replace <your-username> and <your-repo> with your actual GitHub link.
 
-## 📁 Folder Structure
 
-```plaintext
-fullstack-docker-app/
-├── backend/                 # Node.js + Express backend service
-│   ├── Dockerfile
-│   ├── package.json
-│   └── server.js
-│
-├── frontend/                # React frontend application
-│   ├── Dockerfile
-│   ├── .env
-│   └── src/
-│       └── App.js
-│
-├── docker-compose.yml       # Orchestration file for all services
-├── README.md                # Project documentation
-└── screenshot.png           # UI screenshot (optional)
 
 
 
