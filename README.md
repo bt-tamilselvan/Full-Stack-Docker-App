@@ -17,21 +17,21 @@ This is a full-stack Dockerized web application built with:
 
 ## 📁 Folder Structure
 
-my-html-app/
+fullstack-docker-app/
 │
-├── backend/ # Node.js Express backend
+├── backend/ # Node.js + Express backend service
 │ ├── Dockerfile
 │ ├── package.json
 │ └── server.js
 │
-├── frontend/ # React app
+├── frontend/ # React frontend application
 │ ├── Dockerfile
 │ ├── .env
 │ └── src/
 │ └── App.js
 │
-├── docker-compose.yml
-├── README.md
+├── docker-compose.yml # Orchestration for backend, frontend, MongoDB + admin UI
+├── README.md # Project documentation (this file)
 
 ---
 
@@ -70,9 +70,9 @@ GET /users – List all users
 
 ---
 
-🧠 Author:-
+## 🧠 Author
 
-Tamilselvan.B.T – DevOps Engineer in the Making 🚀
+**Tamilselvan.B.T**  – DevOps Engineer in the Making 🚀
 Infosys | Passion for Full Stack | Loves Docker
 
 
