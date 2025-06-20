@@ -17,21 +17,22 @@ This is a full-stack Dockerized web application built with:
 
 ## 📁 Folder Structure
 
+``plaintext
 fullstack-docker-app/
+├── backend/                 # Node.js + Express backend service
+│   ├── Dockerfile
+│   ├── package.json
+│   └── server.js
 │
-├── backend/ # Node.js + Express backend service
-│ ├── Dockerfile
-│ ├── package.json
-│ └── server.js
+├── frontend/                # React frontend application
+│   ├── Dockerfile
+│   ├── .env
+│   └── src/
+│       └── App.js
 │
-├── frontend/ # React frontend application
-│ ├── Dockerfile
-│ ├── .env
-│ └── src/
-│ └── App.js
-│
-├── docker-compose.yml # Orchestration for backend, frontend, MongoDB + admin UI
-├── README.md # Project documentation (this file)
+├── docker-compose.yml       # Orchestration file for all services
+├── README.md                # Project documentation
+└── screenshot.png           # UI screenshot (optional)
 
 ---
 
@@ -93,11 +94,12 @@ Environment configuration
 
 Run these commands from root folder:
 
+```bash
 git init
 git add .
 git commit -m "Full stack Docker App - React, Node, Mongo"
 git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo>.git
+git remote add origin https://github.com/bt-tamilselvan/Full-Stack-Docker-App.git
 git push -u origin main
 
 
